@@ -22,9 +22,40 @@
     margin: 0 0 0 9px;
 }
 
-.logo_text h1, .logo_text h1 a .logo_text h1:hover {
+.logo_text h1, .logo_text h1 a, .logo_text h1:hover {
     padding: 22px 0 0 0;
     color: #fff;
     letter-spacing: 0.1em;
+    text-decoration: none;
+}
+
+.logo_text h2 {
+    font-size: 0.9em;
+    padding: 4px 0 0 0;
+    color: #999;
+}
+
+.menubar {
+    width: 900px;
+    height: 46px;
+}
+
+ul.menu {
+    float: right;
+}
+
+ul.menu li {
+    float: left;
+    padding: 0 0 0 9px;
+    list-style: none;
+    margin: 1px 2px 0 0;
+}
+
+ul.menu li a {
+    font: normal 100% 'trebuchet ms', sans-serif;
+    display: block;
+    height: 20px;
+    padding: 6px 35px 5px 28px;
+    color: #fff;
     text-decoration: none;
 }
