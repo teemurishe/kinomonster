@@ -59,3 +59,11 @@ ul.menu li a {
     color: #fff;
     text-decoration: none;
 }
+
+ul.menu li.selected a {
+    color: #aeb002;
+}
+
+ul.menu li a:hover {
+    color: #e4ec04;
+}
